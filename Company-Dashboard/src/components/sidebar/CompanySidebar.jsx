@@ -6,9 +6,10 @@ import {
   FaHome,
   FaChevronCircleRight,
   FaChevronCircleLeft,
-  FaMapMarkedAlt,
+  FaLock,
 } from "react-icons/fa";
-import { IoIosPeople } from "react-icons/io";
+import { CgProfile } from "react-icons/cg";
+import { PiSuitcaseSimpleBold } from "react-icons/pi";
 import { FaPowerOff } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 
@@ -24,17 +25,17 @@ const CompanySidebar = ({ children }) => {
     {
       path: "/company-profile",
       name: "Profile",
-      icon: <FaMapMarkedAlt />,
+      icon: <CgProfile />,
     },
     {
       path: "/post-internship",
       name: "Post Internship",
-      icon: <IoIosPeople />,
+      icon: <PiSuitcaseSimpleBold />,
     },
     {
       path: "/company-password",
       name: "Change Password",
-      icon: <IoIosPeople />,
+      icon: <FaLock />,
     },
   ];
   return (
