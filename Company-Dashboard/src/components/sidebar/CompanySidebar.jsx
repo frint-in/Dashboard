@@ -47,8 +47,24 @@ const CompanySidebar = ({ children }) => {
         >
           <div className="sidebarTop">
             <div className="top_section">
-              {/* <NavLink to={"/"} key={1} style={{ backgroundColor: '#1a64ae00', transition: "1s"}}><img src={Logo} alt="Full-logo" style={{ display: isOpen ? "block" : "none" }} className="logo" /></NavLink> */}
-              {/* <h1 style={{display: isOpen ? "block" : "none"}} className="logo">Logo</h1> */}
+              {/* <NavLink
+                to={"/"}
+                key={1}
+                style={{ backgroundColor: "#1a64ae00", transition: "1s" }}
+              >
+                <img
+                  src='/main logo.png'
+                  alt="Full-logo"
+                  style={{ display: isOpen ? "block" : "none" }}
+                  className="logo"
+                />
+              </NavLink>
+              <h1
+                style={{ display: isOpen ? "block" : "none" }}
+                className="logo"
+              >
+                Logo
+              </h1> */}
               <div
                 style={{ marginLeft: isOpen ? "228px" : "8px" }}
                 className="bars"

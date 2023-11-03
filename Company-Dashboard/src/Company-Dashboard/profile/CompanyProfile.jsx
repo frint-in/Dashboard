@@ -5,9 +5,11 @@ import CompanySidebar from "../../components/sidebar/CompanySidebar";
 
 const CompanyProfile = () => {
   return (
-    // <CompanySidebar>
-      <div className="CompanyProfile">CompanyProfile</div>
-    // </CompanySidebar>
+      <div className="CompanyProfile">
+        <div className="box">
+          ABC
+        </div>
+      </div>
   );
 };
 
