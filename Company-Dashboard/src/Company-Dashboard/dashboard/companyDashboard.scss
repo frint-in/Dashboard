@@ -3,28 +3,29 @@
   position: sticky;
   height: 90vh;
   .hello {
-    font-size: 36px;
-    margin-left: 3rem;
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
     font-weight: bold;
     color: #29AAE1;
   }
   .welcome {
-    font-size: 24px;
-    margin-left: 3rem;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
   }
   .cards {
-    margin: 1.5rem;
+    // margin: 1.5rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     .cardBox {
       //   border: 1px solid black;
-      background: #f0f0f0;
+      background: #fff;
       border-radius: 10px;
       display: flex;
       justify-content: space-between;
       margin: 1.5rem;
-      min-width: 20%;
+      width: 20rem;
       height: 6rem;
       overflow: hidden;
       transition: 0.5s;
@@ -32,6 +33,9 @@
       &:hover {
         box-shadow: 2px 2px 5px rgb(88, 88, 88);
         transition: 0.5s;
+      }
+      @media (max-width: 840px) {
+        width: 100%;
       }
 
       .text {
