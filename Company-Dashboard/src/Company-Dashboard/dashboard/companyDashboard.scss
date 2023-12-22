@@ -1,57 +1,15 @@
 .CompanyDashboard {
   overflow-y: auto;
   position: sticky;
-  height: 90vh;
-  .hello {
-    font-size: 2.5rem;
-    margin-left: 1.5rem;
-    margin-top: 1rem;
-    font-weight: bold;
-    color: #29AAE1;
-  }
-  .welcome {
-    font-size: 1.5rem;
-    margin-left: 1.5rem;
-  }
-  .cards {
-    // margin: 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    .cardBox {
-      //   border: 1px solid black;
-      background: #fff;
-      border-radius: 10px;
-      display: flex;
-      justify-content: space-between;
-      margin: 1.5rem;
-      width: 20rem;
-      height: 6rem;
-      overflow: hidden;
-      transition: 0.5s;
-      cursor: pointer;
-      &:hover {
-        box-shadow: 2px 2px 5px rgb(88, 88, 88);
-        transition: 0.5s;
-      }
-      @media (max-width: 840px) {
-        width: 80%;
-      }
-
-      .text {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 0.8rem;
-        font-size: 1.5em;
-      }
-      .icon {
-        display: flex;
-        align-items: center;
-        font-size: 3rem;
-        padding: 1rem;
-        color: #00beb5;
-      }
-    }
-  }
+  height: 88vh;
+  // .hello {
+  //   font-size: 2.5rem;
+  //   margin-left: 1rem;
+  //   font-weight: bold;
+  //   color: #29AAE1;
+  // }
+  // .welcome {
+  //   font-size: 1.5rem;
+  //   margin-left: 1rem;
+  // }
 }

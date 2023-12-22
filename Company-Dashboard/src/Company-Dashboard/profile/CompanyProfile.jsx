@@ -1,15 +1,16 @@
 import React from "react";
 
 import "./companyProfile.scss";
-import CompanySidebar from "../../components/sidebar/CompanySidebar";
 
 const CompanyProfile = () => {
   return (
-      <div className="CompanyProfile">
-        <div className="box">
-          ABC
-        </div>
+    <div className="CompanyProfile">
+      <div className="head"> Edit Profile </div>
+      <div className="box">
+        CompanyProfile
       </div>
+      <div className="btn">Save Profile</div>
+    </div>
   );
 };
 

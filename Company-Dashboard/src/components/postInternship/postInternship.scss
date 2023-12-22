@@ -1,0 +1,118 @@
+.PostInternship {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  height: 83vh;
+  background: #fff;
+  border-radius: 20px;
+  overflow-y: auto;
+  position: sticky;
+  .head {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    @media screen and (max-width: 650px) {
+      font-size: 1.5rem;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .Dropdown {
+      position: relative;
+      width: 92%;
+      margin: 1rem;
+      .dropdown-header {
+        cursor: pointer;
+        background-color: #fff;
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &.open {
+          border-bottom: none;
+        }
+        .custom-down-icon {
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      .options {
+        //   position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-top: none;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        .option {
+          padding: 10px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+
+          &:hover {
+            background-color: #f0f0f0;
+          }
+        }
+      }
+    }
+    .datepicker {
+      width: 94%;
+
+      .date {
+        // width: 90vw;
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+        margin: 1rem;
+      }
+    }
+    .input {
+      width: 90%;
+      margin: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 1.2rem;
+    }
+    .btn-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .submit,
+      .reset {
+        color: black;
+        background: none;
+        border: none;
+        font: inherit;
+        line-height: 1;
+        margin: 1em;
+        padding: 1em 2em;
+        transition: 0.5s;
+        cursor: pointer;
+      }
+      .submit {
+        box-shadow: 0.3em 0.3em 0 0 #82fa6c, inset 0.3em 0.3em 0 0 #82fa6c;
+        &:hover,
+        &:focus {
+          color: black;
+          box-shadow: 0 0 0 0 #82fa6c, inset 6em 3.5em 0 0 #82fa6c;
+          transition: 0.5s;
+        }
+      }
+      .reset {
+        box-shadow: 0.3em 0.3em 0 0 #f75050, inset 0.3em 0.3em 0 0 #f75050;
+        &:hover,
+        &:focus {
+          transition: 0.5s;
+          box-shadow: 0 0 0 0 #f75050, inset 6em 3.5em 0 0 #f75050;
+        }
+      }
+    }
+  }
+}

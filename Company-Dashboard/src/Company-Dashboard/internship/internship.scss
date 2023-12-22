@@ -1,0 +1,48 @@
+.Internship {
+  .top {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    .head {
+      text-align: start;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .btn {
+      all: unset;
+      border: 1px solid #1f76bb;
+      width: 6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      text-align: center;
+      border-radius: 10px;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      background-color: #1f76bb;
+      cursor: pointer;
+      transition: 0.3s;
+      color: white;
+      &:hover {
+        background-color: #298ada;
+        transition: 0.3s;
+      }
+      &:active,
+      &:focus {
+        background-color: rgb(14, 0, 212);
+      }
+    }
+  }
+  .box {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    height: 83vh;
+    background: #fff;
+    border-radius: 20px;
+    overflow-y: auto;
+    position: sticky;
+  }
+}

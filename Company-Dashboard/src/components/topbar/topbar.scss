@@ -1,0 +1,41 @@
+.Topbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    .searchbar {
+        position: relative;
+        width: 70%;
+        border-radius: 30px;
+        background-color: #fff;
+    }
+    .searchField {
+        flex: 1;
+        justify-content: space-between;
+        padding: 5px;
+        margin-left: 1.5rem;
+    }
+    .imgBox {
+        width: 3rem;
+        height: 3rem;
+        margin: 0 1rem;
+        border-radius: 50%;
+        background-color: white;
+        img {
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: "Kanit", sans-serif;
+        .name {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .mail {
+            font-size: 1rem;
+        }
+    }
+}
